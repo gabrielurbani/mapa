@@ -13,6 +13,7 @@ L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{
 // L.marker([-34.61, -58.39]).addTo(map)
 //     .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
 //     .openPopup();
+const api_url = 'https://api.wheretheiss.at/v1/satellites/25544';
 
 const customizeMarker = fillColor =>{
     return {
